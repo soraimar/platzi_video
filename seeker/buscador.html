@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <title>Platzi-Video</title>
+</head>
+
+<link rel="stylesheet" href="/css/buscadorStyle.css">
+<link rel="stylesheet" href="/css/carouselStyle.css">
+
+<body>
+    <header class="header">
+        <img class="header__img" src="https://raw.githubusercontent.com/platzi/PlatziVideo/feature/react/src/assets/static/logo-platzi-video-BW2.png" alt="logo-platzi-video-BW2">
+        <div class="header__menu">
+            <div class="header__menu--profile">
+                <img src="../img/user-icon.png" alt="user">
+                <p>Perfil</p>
+            </div>
+            <ul>
+                <li><a href="">Cuenta</a></li>
+                <li><a href="">Cerrar Sesi&oacute;n</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="main">
+        <h2 class="main__title">¿Que quiere ver hoy?</h2>
+        <label>
+            <input class="input" type="text" placeholder="Buscar...">
+        </label>
+    </section>
+
+    <section class="carousel">
+        <div class="carousel__container">
+            <div class="carousel-item">
+                <img class="carousel-item__img" src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="People">
+                <div class="carousel-item__details">
+                    <img class="carousel-item-details__img" src="../img/play-icon.png" alt="Play" onclick="alerta(1)">
+                    <img class="carousel-item-details__img" src="../img/plus-icon.png" alt="Plus" onclick="alerta(2)">
+                    <p class="carousel-item__details--title">Título descriptivo</p>
+                    <p class="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
+                </div>
+            </div>
+            <div class="carousel-item"></div>
+            <div class="carousel-item"></div>
+            <div class="carousel-item"></div>
+            <div class="carousel-item"></div>
+            <div class="carousel-item"></div>
+            <div class="carousel-item"></div>
+            <div class="carousel-item"></div>
+        </div>
+    </section>
+
+    <footer>
+    </footer>
+</body>
+</html>
