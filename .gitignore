@@ -101,6 +101,7 @@ dist
 
 # Serverless directories
 .serverless/
+.idea/
 
 # FuseBox cache
 .fusebox/
