@@ -1,0 +1,25 @@
+.body{
+    margin: 0;
+    font-family: 'Muli',sans-serif;
+}
+
+.header {
+    align-items: center;
+    background-color: #21c08b;
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+}
+.header__img {
+    margin-left: 30px;
+    width: 200px;
+}
+
+
+.footer__login{
+    align-content:flex-end;
+    justify-content:center;
+}
