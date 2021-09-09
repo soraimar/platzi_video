@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    font-family: 'Muli',sans-serif;
+}
+.header {
+    align-items: center;
+    background-color: #8a3ab9;
+    color: white;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+}
+.header__img {
+    margin-left: 30px;
+    width: 200px;
+}
+.register__container > h2 {
+    margin: 0;
+}
+.register{
+    background: linear-gradient(#8a3ab9,#bc2a8d);
+    display: flex;
+    align-items: center;
+    align-content: center ;
+    flex-direction: column ;
+    padding: 20px 30px;
+    min-height: calc(100vh - 200px);
+}
+
+.register__container {
+    background-color: rgba(255,255,255,0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px ;
+    min-height: 700px;
+    width: 300px ;
+    box-shadow: 0 0 20px 0 rgb(243, 238, 238);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column ;
+}
+
+.register__container--form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.input{
+    background-color:transparent;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    font-family: 'Muli',sans-serif;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    outline: none;
+    height: 50px;
+}
+::placeholder{
+    color: white;
+}
+.register__container > form > button{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 25px;
+    font-family: 'Muli',sans-serif;
+    color: white;
+    font-size: 16px;
+    cursor: pointer ;
+    font-weight: bold;
+    height: 50px;
+    letter-spacing: 1px; /*espacio enter las letras*/
+    margin: 30px 10px;
+}
+
+.register__contaimer--session-start a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.register__contaimer--session-start a:hover{
+    text-decoration: underline;
+}
+
+.footer__register{
+    background: #bc2a8d;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+.footer__register a{
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.footer__register a:hover{
+    text-decoration: underline;
+}
