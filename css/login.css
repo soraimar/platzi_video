@@ -82,14 +82,15 @@ body{
     margin-right: 10px;
 }
 
-.login__container--register p{
-    justify-content: space-around;
+.login__container--register{
+    display: flex;
+    justify-content: center;
 }
 
 .login__container--register a{
     font-size: 16px;
     color: white;
-    font-weight: bold;
+    font-weight: bold; /*negrita*/
     text-decoration: none;
 }
 .login__container--register a:hover{
@@ -129,7 +130,6 @@ body{
 
 .footer__login{
     background: #bc2a8d;
-    /*background-color: rgba(255, 255, 255, 0.1);*/
     display: flex;
     align-items: center;
     justify-content: space-around;
