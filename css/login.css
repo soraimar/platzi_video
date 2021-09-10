@@ -128,7 +128,7 @@ body{
     margin: 10px 0;
 }
 
-.footer__login{
+.footer{
     background: #bc2a8d;
     display: flex;
     align-items: center;
@@ -136,7 +136,7 @@ body{
     height: 100px;
     width: 100%;
 }
-.footer__login a{
+.footer a{
     color: white;
     cursor: pointer;
     font-size: 14px;
@@ -144,6 +144,21 @@ body{
     text-decoration: none;
 }
 
-.footer__login a:hover{
+.footer a:hover{
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px){
+    .login__container{
+        background-color: transparent;
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
