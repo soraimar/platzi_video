@@ -1,6 +1,17 @@
 body {
     font-family: 'Muli', sans-serif;
     background: #8a3ab9;
+    overflow-x: auto;
+}
+body::-webkit-scrollbar {
+    height: 5px;
+}
+body::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 40px;
+}
+body::-webkit-scrollbar-track {
+    background: #8A3AB9;
 }
 
 .header {
