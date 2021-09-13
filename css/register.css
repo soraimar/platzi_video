@@ -99,18 +99,6 @@ body{
     height: 100px;
     width: 100%;
 }
-.footer__register a{
-    color: white;
-    cursor: pointer;
-    font-size: 14px;
-    padding-left: 30px;
-    text-decoration: none;
-}
-
-.footer__register a:hover{
-    text-decoration: underline;
-}
-
 @media only screen and (max-width: 600px){
     .register__container{
         background-color: transparent;
@@ -118,10 +106,5 @@ body{
         border: none;
         padding: 0;
         width: 100%;
-    }
-    .footer__register{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
     }
 }
