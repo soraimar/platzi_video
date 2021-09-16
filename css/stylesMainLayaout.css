@@ -116,7 +116,6 @@ body::-webkit-scrollbar-track {
     justify-content: flex-start;
     overflow-x: auto;
 }
-/* Works on Chrome, Edge, and Safari */
 .carousel::-webkit-scrollbar {
     width: 12px;
     height: 10px;
@@ -128,7 +127,7 @@ body::-webkit-scrollbar-track {
 
 .carousel__container {
     white-space: nowrap;
-    margin: 50px 23px;
+    margin: 40px 10px 20px 30px ;
     padding-bottom: 10px;
 }
 .carousel-item {
@@ -184,4 +183,40 @@ body::-webkit-scrollbar-track {
 }
 .carousel-item-details__img{
     width: 42px;
+}
+
+.footer__inicio{
+    background: #8a3ab9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+.footer__inicio a{
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.footer__inicio a:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px){
+    .carousel {
+        width: 86.5%;
+        height: 100%;
+        margin: 20px 27px;
+        display: flex;
+        justify-content: flex-start;
+        overflow-x: auto;
+    }
+    .footer__inicio{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }

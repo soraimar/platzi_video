@@ -127,6 +127,26 @@ body{
     letter-spacing: 1px; /*espacio enter las letras*/
     margin: 10px 0;
 }
+.footer{
+    background: #bc2a8d;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+.footer a{
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 600px){
     .login__container{
         background-color: transparent;
@@ -134,5 +154,10 @@ body{
         border: none;
         padding: 0;
         width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
