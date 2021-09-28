@@ -1,3 +1,5 @@
+$color_text: white;
+
 body {
     font-family: 'Muli', sans-serif;
     background: #8a3ab9;
@@ -45,7 +47,7 @@ body::-webkit-scrollbar-track {
     margin: 10px 0;
 }
 .header__menu li a{
-    color: white;
+    color: $color_text;
     text-decoration: none;
 }
 .header__menu li a:hover {
@@ -64,7 +66,7 @@ body::-webkit-scrollbar-track {
 }
 
 .header__menu--profile p{
-    color: white;
+    color: $color_text;
     margin: 0;
 }
 
@@ -77,12 +79,12 @@ body::-webkit-scrollbar-track {
 }
 
 .main__title{
-    color: white;
+    color: $color_text;
     font-size: 30px;
 }
 
 .categories__title{
-    color:white;
+    color:$color_text;
     font-size: 20px;
     width: 90%;
     height: 20px;
@@ -102,10 +104,10 @@ body::-webkit-scrollbar-track {
     padding: 0 20px;
     width: 70%;
     outline: none;
-    color: white;
+    color: $color_text;
 }
 ::placeholder{
-    color: white;
+    color: $color_text;
 }
 
 .carousel {
@@ -171,7 +173,7 @@ body::-webkit-scrollbar-track {
     bottom: 0;
     align-content: flex-end;/*Las líneas se posicionan en la parte inferior del contenedor*/
     justify-content: flex-end; /*Alinea elementos al lado derecho del contenedor*/
-    color: white;
+    color: $color_text;
 }
 
 .carousel-item__details:hover{
@@ -194,7 +196,7 @@ body::-webkit-scrollbar-track {
     width: 100%;
 }
 .footer__inicio a{
-    color: white;
+    color: $color_text;
     cursor: pointer;
     font-size: 14px;
     padding-left: 30px;
