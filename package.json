@@ -1,0 +1,24 @@
+{
+  "name": "platzi_video",
+  "version": "1.0.0",
+  "description": "app de videos",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server ./ -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soraimar/platzi_video.git"
+  },
+  "author": "soraimar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Soraimar/platzi_video/issues"
+  },
+  "homepage": "https://github.com/Soraimar/platzi_video#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "http-server": "^13.0.2"
+  }
+}

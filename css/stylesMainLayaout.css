@@ -1,0 +1,244 @@
+@charset "UTF-8";
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  letter-spacing: 0.8px;
+  background: linear-gradient(to bottom, #131318, #1c1d2a, #25273e, #2f3152, #393c67, #424c7b, #4a5d8f, #526fa4, #5e8aba, #6fa5cf, #85c1e2, #9edcf5) no-repeat fixed;
+  overflow-x: auto;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__img {
+  margin-left: 30px;
+  width: 200px;
+}
+
+.header__menu {
+  margin-right: 30px;
+  padding: 10px;
+}
+
+.header__menu ul {
+  display: none;
+  list-style: none;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 10%;
+}
+
+.header__menu:hover ul, ul:hover {
+  display: block;
+}
+
+.header__menu li {
+  margin: 10px 0;
+}
+
+.header__menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header__menu li a:hover {
+  text-decoration: underline;
+}
+
+.header__menu--profile {
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header__menu--profile img {
+  margin-right: 8px;
+  width: 40px;
+}
+
+.header__menu--profile p {
+  color: white;
+  margin: 0;
+}
+
+.main {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main__title {
+  color: white;
+  font-size: 39px;
+  margin: 53px 0;
+}
+
+.categories__title {
+  color: white;
+  font-size: 20px;
+  width: 90%;
+  height: 20px;
+  margin: 15px 15px 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: solid white;
+  border-width: 1px 4px;
+  border-radius: 25px;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  height: 50px;
+  padding: 0 20px;
+  width: 70%;
+  outline: none;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.carousel {
+  width: 91.5%;
+  height: 100%;
+  margin: 20px 75px;
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: auto;
+}
+
+.carousel::-webkit-scrollbar {
+  width: 12px;
+  height: 10px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+}
+
+.carousel__container {
+  white-space: nowrap;
+  margin: 40px 10px 20px 30px;
+  padding-bottom: 10px;
+}
+
+.carousel-item {
+  background-color: black;
+  width: 225px;
+  height: 315px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-right: 10px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 450ms all;
+  transform-origin: center;
+  position: relative;
+}
+
+.carousel-item:hover ~ .carousel-item {
+  transform: translate3d(80px, 0, 0);
+}
+
+.carousel__container:hover .carousel-item {
+  opacity: 0.3;
+}
+
+.carousel__container:hover .carousel-item:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.carousel-item__img {
+  width: 234px;
+  height: 316px;
+  object-fit: cover;
+  /*propiedad para que la imagen recupere el tamaño original*/
+}
+
+.carousel-item__details {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+  /*el linear-gradient genera un efecto de desvanecido */
+  font-size: 15px;
+  opacity: 0.5;
+  transition: 450ms opacity;
+  padding: 10px;
+  position: absolute;
+  top: 175px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-content: flex-end;
+  /*Las líneas se posicionan en la parte inferior del contenedor*/
+  justify-content: flex-end;
+  /*Alinea elementos al lado derecho del contenedor*/
+  color: white;
+}
+
+.carousel-item__details:hover {
+  opacity: 1;
+}
+
+.carousel-item__details--title {
+  display: block;
+  font-size: 12px;
+}
+
+.carousel-item-details__img {
+  width: 42px;
+}
+
+.footer__inicio {
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  width: 100%;
+  margin-top: 65px;
+}
+
+.footer__inicio a {
+  color: #000000;
+  cursor: pointer;
+  font-size: 14px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.footer__inicio a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel {
+    width: 86.5%;
+    height: 100%;
+    margin: 20px 27px;
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+  }
+
+  .footer__inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
