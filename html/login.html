@@ -17,10 +17,12 @@
     <section class="login">
         <section class="login__container">
             <h2>Inicio sesión</h2>
-            <form class="login__container--form">
+            <form class="login__container--form" action="mainLayout.html">
                 <input class="input" type="text" placeholder="Correo">
                 <input class="input" type="password" placeholder="Contraseña">
-                <button class="button"> Iniciar sesión</button>
+                <button class="button" type="submit">
+                    Iniciar sesión
+                </button>
                 <div class="login__container--remenber-me">
                     <label>
                         <input type="checkbox" id="checkbox" value="checkbox"> Recuérdame
@@ -29,11 +31,16 @@
                 </div>
             </form>
             <section class="login__container--social-media">
-                <div><img src="../img/google-icon.png" alt="Google">Inicia sesión con Google</div>
-                <div><img src="../img/twitter-icon.webp" alt="Google">Inicia sesión con Twitter</div>
+                <div><img src="../img/logo-google-1.webp"
+                          alt="Google">Inicia sesión con Google
+                </div>
+                <div><img src="../img/logo-twitter.png"
+                          alt="Google">Inicia sesión con Twitter
+                </div>
             </section>
             <div class="login__container--register">
-                <p class="p-register"> No tienes ninguna cuenta <a href="./register.html"> Regístrate </a></p>
+                <p class="p-register"> No tienes ninguna cuenta
+                    <a href="./register.html"> Regístrate </a></p>
             </div>
         </section>
     </section>

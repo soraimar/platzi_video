@@ -1,10 +1,10 @@
 body{
     margin: 0;
     font-family: 'Muli',sans-serif;
+    background: linear-gradient(to top, #b881d1, #a471c2, #9061b4, #7d52a5, #694397, #5a388b, #4b2e80, #3c2474, #2f1b68, #21135c, #120b50, #030045);
 }
 .header {
     align-items: center;
-    background-color: #8a3ab9;
     color: white;
     display: flex;
     height: 80px;
@@ -20,7 +20,6 @@ body{
     margin: 0;
 }
 .register{
-    background: linear-gradient(#8a3ab9,#bc2a8d);
     display: flex;
     align-items: center;
     align-content: center ;
@@ -61,12 +60,13 @@ body{
     padding: 0 20px;
     outline: none;
     height: 50px;
+    color: white;
 }
 ::placeholder{
     color: white;
 }
 .register__container > form > button{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     border: none;
     border-radius: 25px;
     font-family: 'Muli',sans-serif;
@@ -92,7 +92,7 @@ body{
 }
 
 .footer{
-    background: #bc2a8d;
+    background-color: rgba(255, 255, 255, 0.1);
     display: flex;
     align-items: center;
     justify-content: space-around;

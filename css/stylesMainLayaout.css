@@ -1,25 +1,16 @@
 @charset "UTF-8";
 body {
-  font-family: "Muli", sans-serif;
-  background: #8a3ab9;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  letter-spacing: 0.8px;
+  background: linear-gradient(to bottom, #131318, #1c1d2a, #25273e, #2f3152, #393c67, #424c7b, #4a5d8f, #526fa4, #5e8aba, #6fa5cf, #85c1e2, #9edcf5) no-repeat fixed;
   overflow-x: auto;
-}
-
-body::-webkit-scrollbar {
-  width: 12px;
-}
-
-body::-webkit-scrollbar-thumb {
-  background: white;
-  border-radius: 40px;
-}
-
-body::-webkit-scrollbar-track {
-  background: #8A3AB9;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .header {
-  background-color: #8a3ab9;
   width: 100%;
   height: 80px;
   display: flex;
@@ -34,15 +25,16 @@ body::-webkit-scrollbar-track {
 
 .header__menu {
   margin-right: 30px;
+  padding: 10px;
 }
 
 .header__menu ul {
   display: none;
   list-style: none;
   position: absolute;
-  width: 100px;
-  text-align: right;
-  margin: -11px 0 0 -14px;
+  margin: 0;
+  padding: 0;
+  width: 10%;
 }
 
 .header__menu:hover ul, ul:hover {
@@ -89,7 +81,8 @@ body::-webkit-scrollbar-track {
 
 .main__title {
   color: white;
-  font-size: 30px;
+  font-size: 39px;
+  margin: 53px 0;
 }
 
 .categories__title {
@@ -135,7 +128,7 @@ body::-webkit-scrollbar-track {
 }
 
 .carousel::-webkit-scrollbar-thumb {
-  background: linear-gradient(to right, #8F57FD 0%, #b5b2b2 100%);
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 30px;
 }
 
@@ -173,8 +166,8 @@ body::-webkit-scrollbar-track {
 }
 
 .carousel-item__img {
-  width: 420px;
-  height: 330px;
+  width: 234px;
+  height: 316px;
   object-fit: cover;
   /*propiedad para que la imagen recupere el tamaño original*/
 }
@@ -212,16 +205,17 @@ body::-webkit-scrollbar-track {
 }
 
 .footer__inicio {
-  background: #8a3ab9;
+  background-color: rgba(255, 255, 255, 0.2);
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 100px;
   width: 100%;
+  margin-top: 65px;
 }
 
 .footer__inicio a {
-  color: white;
+  color: #000000;
   cursor: pointer;
   font-size: 14px;
   padding-left: 30px;
@@ -248,5 +242,3 @@ body::-webkit-scrollbar-track {
     align-items: flex-start;
   }
 }
-
-/*# sourceMappingURL=stylesMainLayaout.css.map */
