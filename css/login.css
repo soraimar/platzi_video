@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to bottom, #131318, #1c1d2a, #25273e, #2f3152, #393c67, #424c7b, #4a5d8f, #526fa4, #5e8aba, #6fa5cf, #85c1e2, #9edcf5) no-repeat fixed;
+    background: linear-gradient(to bottom, #131318, #1c1d2a, #25273e, #2f3152, #393c67, #414f7d, #476394, #4d78aa, #5d9ac1, #78bbd6, #9cdce9, #83b0b0) no-repeat fixed;
     overflow-x: auto;
     margin: 0;
     display: flex;
@@ -32,7 +32,7 @@ body{
     border: 2px solid white;
     border-radius: 40px;
     color: white;
-    padding: 41px 90px 40px;
+    padding: 41px 68px 40px;
     min-height: 700px;
     width: 300px ;
     box-shadow: 0 0 20px 0 rgb(243, 238, 238);

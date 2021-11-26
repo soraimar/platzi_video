@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    background: linear-gradient(to bottom, #131318, #1c1d2a, #25273e, #2f3152, #393c67, #414f7d, #476394, #4d78aa, #5d9ac1, #78bbd6, #9cdce9, #c6fdfd) no-repeat fixed;
+    background: linear-gradient(to bottom, #131318, #1c1d2a, #25273e, #2f3152, #393c67, #414f7d, #476394, #4d78aa, #5d9ac1, #78bbd6, #9cdce9, #83b0b0) no-repeat fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
