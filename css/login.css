@@ -32,7 +32,7 @@ body{
     border: 2px solid white;
     border-radius: 40px;
     color: white;
-    padding: 41px 68px 40px;
+    padding: 41px 90px 40px;
     min-height: 700px;
     width: 300px ;
     box-shadow: 0 0 20px 0 rgb(243, 238, 238);
@@ -136,6 +136,7 @@ body{
     justify-content: space-around;
     height: 100px;
     width: 100%;
+    margin-top: 65px;
 }
 .footer a{
     color: white;
