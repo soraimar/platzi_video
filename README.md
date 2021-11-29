@@ -1,6 +1,6 @@
 # Platzi video
 
-Contiene el diseño del front-End de la app PlatziVideo, generado con el curso de Platzi [Frontend Developer 2019](https://platzi.com/clases/frontend-developer-2019/)
+Contiene el diseño de las interfaces de usuarios para la app de PlatziVideo, generado con el curso de Platzi [Frontend Developer 2019](https://platzi.com/clases/frontend-developer-2019/)
 
 ### Appearance
 Login:

@@ -1,7 +1,7 @@
 body{
     background: linear-gradient(to bottom, #131318, #1c1d2a, #25273e, #2f3152,
-    #393c67, #414f7d, #476394, #4d74a1,
-    #5990b4, #6da8c0, #84bbc7, #7db0be) no-repeat fixed;
+    #393c67, #414f7d, #476394, #496e9a,
+    #4a7794, #58889b, #658f98, #618994) no-repeat fixed;
     overflow-x: auto;
     margin: 0;
     display: flex;
