@@ -4,10 +4,16 @@ Contiene el diseño de las interfaces de usuarios para la app de PlatziVideo, ge
 
 ### Appearance
 Login:
+![plot](img/Readme/inicio-sesion.png)
 
 Registrar:
+![plot](img/Readme/registrar.png)
 
 Home:
+![plot](img/Readme/home.png)
+
+No Found:
+![plot](img/Readme/not-found.png)
 
 
 ## Technology
